@@ -1,10 +1,16 @@
-  <!DOCTYPE html>
+   <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Character encoding and responsive layout -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Page title -->
   <title>Evans Odhiambo Onyango | Portfolio</title>
+
+  <!-- Internal CSS styling -->
   <style>
+    /* Reset default spacing and enable smooth scrolling */
     * {
       margin: 0;
       padding: 0;
@@ -12,6 +18,7 @@
       scroll-behavior: smooth;
     }
 
+    /* Overall body styling */
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background-color: #f0f2f5;
@@ -20,6 +27,7 @@
       flex-direction: row;
     }
 
+    /* Sidebar/Aside section styling */
     aside {
       width: 240px;
       height: 100vh;
@@ -51,12 +59,14 @@
       background-color: rgba(255, 255, 255, 0.2);
     }
 
+    /* Main content layout */
     main {
       margin-left: 260px;
       padding: 30px;
       width: calc(100% - 260px);
     }
 
+    /* Header and footer styling */
     header, footer {
       background: #0077cc;
       color: white;
@@ -65,6 +75,7 @@
       border-radius: 8px;
     }
 
+    /* Section block styling */
     section {
       background: #fff;
       padding: 25px;
@@ -73,15 +84,18 @@
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
     }
 
+    /* Section heading styling */
     h2 {
       color: #0077cc;
       margin-bottom: 10px;
     }
 
+    /* Bullet lists inside sections */
     ul {
       padding-left: 20px;
     }
 
+    /* Download CV button */
     a.download-cv {
       display: inline-block;
       margin-top: 10px;
@@ -98,11 +112,13 @@
       background-color: #005fa3;
     }
 
+    /* Profile image */
     img {
       border-radius: 50%;
       margin-top: 15px;
     }
 
+    /* Contact form styling */
     form input, form textarea {
       width: 100%;
       padding: 8px;
@@ -112,6 +128,7 @@
       font-size: 14px;
     }
 
+    /* Buttons inside the form */
     form input[type="submit"],
     form input[type="reset"] {
       width: auto;
@@ -128,12 +145,13 @@
       background-color: #005fa3;
     }
 
+    /* Footer links */
     footer a {
       color: #fff;
       text-decoration: underline;
     }
 
-    /* Responsive styles */
+    /* Responsive layout for tablets and phones */
     @media (max-width: 768px) {
       body {
         flex-direction: column;
@@ -157,43 +175,66 @@
 </head>
 <body>
 
-  <!-- Sidebar Navigation -->
+  <!-- Sidebar navigation menu -->
   <aside>
     <h2>Navigate</h2>
     <a href="#about">About Me</a>
     <a href="#education">Education</a>
     <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
     <a href="#interests">Interests</a>
     <a href="#contact">Contact</a>
   </aside>
 
-  <!-- Main Content -->
+  <!-- Main content section -->
   <main>
+
+    <!-- Profile header -->
     <header>
       <h1>Evans Odhiambo Onyango</h1>
       <p>A Medical Student and an aspiring Software Programmer</p>
       <img src="EVANS.jpg" alt="Evans Odhiambo Onyango" width="200" height="200">
     </header>
 
+    <!-- About section -->
     <section id="about">
       <h2>About Me</h2>
       <p>
-        Hi! I'm Evans Odhiambo Onyango, a passionate beginner Software Programmer at Power Learn Project Africa. I'm also pursuing a Bachelor of Medicine and Bachelor of Surgery at the University of Nairobi. I also co-founded an initiative called <strong>Girls For Change</strong>, which advocates for female empowerment through education. I'm passionate about combining medicine and technology to improve healthcare access and outcomes especially in underserved communities.
+        Hi! I'm Evans Odhiambo Onyango, a passionate beginner Software Programmer at Power Learn Project Africa. 
+        I'm also pursuing a Bachelor of Medicine and Bachelor of Surgery at the University of Nairobi. 
+        I co-founded <strong>Girls For Change</strong>, an initiative advocating for female empowerment through education. 
+        I'm passionate about combining medicine and technology to improve healthcare in underserved communities.
       </p>
     </section>
 
+    <!-- Education section -->
     <section id="education">
       <h2>Educational Background</h2>
       <p>I am currently studying Bachelor of Medicine and Bachelor of Surgery at the University of Nairobi.</p>
       <a class="download-cv" href="Evans CV.pdf" download>📄 Download My CV</a>
     </section>
     
+    <!-- Projects section -->
     <section id="projects">
       <h2>Projects</h2>
       <p>Check out my project here:</p>
       <a href="https://evans-deo-star.github.io/Girls-For-Change/">Girls For Change</a>
     </section>
 
+    <!-- Skills section -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript - beginner</li>
+        <li>Python - beginner</li>
+        <li>Data Analysis</li>
+        <li>Problem Solving</li>
+        <li>Team Collaboration</li>
+        <li>Community Engagement</li>
+      </ul>
+    </section>
+
+    <!-- Interests section -->
     <section id="interests">
       <h2>Interests</h2>
       <ul>
@@ -202,9 +243,12 @@
         <li>Community Empowerment</li>
         <li>STEM Education</li>
         <li>Open Source & Collaboration</li>
+        <li>Artificial Intelligence in Healthcare</li>
+        <li>Data Science</li>
       </ul>
     </section>
 
+    <!-- Contact section -->
     <section id="contact">
       <h2>Contact Me</h2>
       <p>If you'd like to get in touch, use the contact form below.</p>
@@ -223,11 +267,13 @@
       </form>
     </section>
 
+    <!-- Footer section -->
     <footer>
       <p>I hope you find my portfolio inspiring and informative. Feel free to connect with me via LinkedIn.</p>
       <a href="https://www.linkedin.com/in/evans-onyango-029689300/">LinkedIn</a>
       <p>&copy; 2025 Evans Odhiambo Onyango. All rights reserved.</p>
     </footer>
+
   </main>
 
 </body>

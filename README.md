@@ -1,7 +1,5 @@
 # Evans Odhiambo Onyango - Portfolio Website
 
-![Portfolio Screenshot](https://via.placeholder.com/800x500?text=Evans+Onyango+Portfolio+Screenshot)
-
 A responsive personal portfolio website showcasing Evans Odhiambo Onyango's background as a medical student and aspiring software programmer.
 
 ## Features
@@ -59,10 +57,6 @@ The website features a responsive layout that:
 - Include a projects gallery
 - Add dark/light mode toggle
 - Integrate blog section
-
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
 
 ## Connect with Evans
 
